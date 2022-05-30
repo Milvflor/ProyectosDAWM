@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
 
 * {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Open sans', cursive;
   color: black;
-  background: rgb(200,150,200)
+/*   background: rgb(200,150,200) */
 }
-
+/*
 h1 {
   color: purple;
 }
@@ -19,4 +19,4 @@ h1 {
 li {
   padding:0.5rem;
   list-style-type: none;
-}
+} */
