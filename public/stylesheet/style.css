@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  font-family: 'Press Start 2P', cursive;
+  color: black;
+  background: rgb(200,150,200)
+}
+
+h1 {
+  color: purple;
+}
+
+.menu li >  a {
+  color: green;
+
+  list-style: ;
+}
+
+li {
+  padding:0.5rem;
+  list-style-type: none;
+}
