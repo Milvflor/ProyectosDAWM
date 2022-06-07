@@ -6,14 +6,60 @@
 /*   background: rgb(200,150,200) */
 }
 
+body {
+  display: grid;
+  grid-template-columns: 0.3fr 1.7fr 1fr; 
+  grid-template-rows: 0.4fr 1.6fr 1fr 1fr;
+  gap: 5px 0px; 
+  grid-template-areas: 
+  "logo menu menu"
+  "presentation presentation presentation"
+  "presentation presentation presentation"
+  "presentation presentation presentation";
+}
+
+#s0 {
+  grid-area: logo;
+}
+
+#s1 {
+  grid-area: menu;
+}
+
+#s2 {
+  grid-area: presentation;
+}
+
+.logo > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.presentation > img {
+  max-width: 40%;
+  max-height: 40%;
+  position:center;
+}
+
 li {
   list-style: none;
 }
 
 .menu li >  a {
   color: purple;
+/*   transition:white .5s; */
 }
 
 .logo {
   position:right;
+}
+
+li:hover {
+/*   background-color:gold;*/
+  text-decoration: underline red;
+  cursor: hand;
+}
+
+p::first-letter{
+  font-size: 5rem;
 }
