@@ -3,63 +3,118 @@
 * {
   font-family: 'Open Sans', sans-serif;
   color: black;
-/*   background: rgb(200,150,200) */
 }
 
-body {
-  display: grid;
-  grid-template-columns: 0.3fr 1.7fr 1fr; 
-  grid-template-rows: 0.4fr 1.6fr 1fr 1fr;
+
+
+div, body {
+  margin: 0%;
+  border: 0%;
+}
+
+.container {
+  display: block;
+}
+
+.container {
+  display: grid; 
+  grid-template-columns: 1fr; 
+  /* grid-template-rows: 0.4fr 1.7fr 0.2fr;  */
   gap: 5px 0px; 
   grid-template-areas: 
-  "logo menu menu"
-  "presentation presentation presentation"
-  "presentation presentation presentation"
-  "presentation presentation presentation";
+    "header"
+    "contenido"
+    "foot"; 
 }
 
-#s0 {
-  grid-area: logo;
+
+.contenido { 
+  grid-area: contenido; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#s1 {
-  grid-area: menu;
+.foot { grid-area: foot; }
+
+.header { 
+  display: flex;
+  align-items: center;
+  background-color: #e2dde2;
+  height: 70px;
+
 }
 
-#s2 {
-  grid-area: presentation;
-}
-
-.logo > img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.presentation > img {
-  max-width: 40%;
-  max-height: 40%;
-  position:center;
+.menu > ul {
+  display: flex;
+  margin: 5px auto;
+  padding: 0px;
 }
 
 li {
   list-style: none;
+  padding: 20px 30px 20px 30px;
+}
+
+
+
+.logo > img {
+  width: 70px;
+  padding: 3px 10px 0px 10px;
+}
+
+.imagen-section > img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: #bcbcbc;
+  border: white 20px solid;
+  align-content: center;
+}
+
+.imagen-section {
+  display: flex;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  background-color: #bcbcbc;
+  align-items: center;
 }
 
 .menu li >  a {
   color: purple;
+  position: inherit;
 /*   transition:white .5s; */
-}
-
-.logo {
-  position:right;
 }
 
 li:hover {
 /*   background-color:gold;*/
-  text-decoration: underline red;
+  background-color: #a794be;
   cursor: hand;
 }
 
-p::first-letter{
-  font-size: 5rem;
+.presentation{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.presentation > p {
+  text-align: center;
+  background-color: #e2dde2;
+  padding: 30px 20px 30px 20px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  
+}
+
+@media (max-width: 600px) {
+  .menu {
+    float: right;
+  }
+}
+
+.foot{
+  background-color: #a794be;
+  text-align: center;
 }
