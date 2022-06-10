@@ -41,7 +41,7 @@ div, body {
 .header { 
   display: flex;
   align-items: center;
-  background-color: #e2dde2;
+  background-color: #e2ddeb;
   height: 70px;
 
 }
@@ -122,6 +122,6 @@ li:hover {
 }
 
 .foot{
-  background-color: #a794be;
+  background-color: #e2ddeb;
   text-align: center;
 }
