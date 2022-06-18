@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turotiales</title>
+    <!-- <link href="./public/stylesheet/tutos.css" rel="stylesheet" type="text/css" /> -->
+    <link href="./public/stylesheet/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./public/stylesheet/page1.css" type="text/css">
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+      
+          <section class="logo">
+            <img src="./images/logo.png" alt="logo">
+          </section>
+          <section class="menu" >
+            <ul>  
+              <li ><a href="./index.html">Inicio</a></li>
+              <li><a href="./tutoriales.html">Tutoriales/Blog</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="contenido">
+           
+            <div class="titulo">
+                <h1>How to use .PEM (public key) file in Bitvise SSH Client & open server with Terminal</h1>
+            </div>
+            <div class="texto">
+                <p>
+                    Bitvise SSH is a free SSH and SFTP client and server for Windows environments. As for any other type of remote connection, in order to establish secure connections we need both a server and a client.<br><br>
+                    Bitvise SSH Client is the client, which is used to establish remote connections to the SSH protocol. This client is used to establish a remote connection to the server terminal to control it, to configure and monitor port forwarding and to transfer files securely through Secure-FTP. This client is the one that must be installed on the machine from which we are going to connect to the server.<br><br>
+                    First, Open Bitvise SSH Client Software and click on Client key manager.
+                    
+                </p>
+            </div>
+            <div>
+                <img src="./imagesM/image.png" alt="clientManager">
+            </div>
+            <div>
+                <p>
+                    Import .pem file and if it have a passphrase introduce it.
+                </p>
+            </div>
+            <div>
+                <img src="./imagesM/image2.png" alt="ImportKey">
+                <img src="./imagesM/image3.png" alt="ImportKey">
+            </div>
+            <div>
+                <img src="./imagesM/image4.png" alt="ImportKey">
+            </div>
+            <div>
+                <p>
+                    It should be add on Client Key Manager as Global 1 location.
+                </p>
+            </div>
+            <div>
+                <img src="./imagesM/image5.png" alt="">
+            </div>
+            <div>
+                <p>Then, click on Options Tab and check box Open in Terminal.</p>
+            </div>
+            <div>
+                <img src="./imagesM/image6.png" alt="">
+            </div>
+            <div>
+                <p>Now, click on Login tab, introduce (example):</p>
+            </div>
+            <div class="example">
+                <i>
+                    Port: 22<br>
+                    Username: yourUsername<br>
+                    Initial method: publickey<br>
+                    Client Key: Global 1 (Key added in 4th step)<br>
+                    Passphrase: KeyPemFile<br>
+                </i>
+            </div>
+            <div>
+                <p>Then, click on Log in and Accepted for this Session.</p>
+            </div>
+            <div>
+                <img src="./imagesM/image7.png" alt="">
+                <img src="./imagesM/image8.png" alt="">
+            </div>
+            <div>
+                <p> Finally, the terminal should be open server successfully.</p>
+            </div>
+            <div>
+                <img src="./imagesM/image9.png" alt="">
+            </div>
+            <div>
+                <blockquote><i>by: milvflor</i></blockquote>
+            </div>
+            <div>
+                <form action="comments">
+                    <div class="comentario">
+                        <div class="header_cc">
+                            <label>Tu e-mail: </label>
+                            <input type="email" name="" id="mail" placeholder="example@domine.com">
+                        </div>
+                        <div class="body_cc">
+                            <textarea name="" id="comment" cols="30" rows="10" placeholder="Déjame tu comentario"></textarea>
+                        </div>
+                        <div class="button_s">
+                            <button type="submit" >Enviar</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+
+        </div>
+
+
+      </div>
+      
+    
+</body>
+</html>

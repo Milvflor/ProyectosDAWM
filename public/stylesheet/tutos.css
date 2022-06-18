@@ -12,7 +12,7 @@
     margin-left: 0.2rem;
     font-size: small;
     margin: 0;
-    
+    font-weight: bold;
     
 }
 
@@ -43,7 +43,9 @@ article {
 }
 
 .titulo {
-    margin: 0;
+    margin: 0;      
+    font-size: inherit;
+    font-weight: bold;
 }
 
 .img_i {
@@ -58,13 +60,3 @@ img {
     
   }
 
-.titulo {
-    font-weight: bold;
-    font-size: 1.4rem;
-    /* text-align: center; */
-}
-
-.pie {
-    font-weight: bold;
-    padding: 0;
-}

@@ -1,0 +1,71 @@
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+}
+
+
+.header_cc {
+    padding-top: 50px;
+    padding-right: 400px;
+    padding-bottom: 10px;
+}
+
+.body_cc {
+    padding-left: 73px;
+}
+
+button{
+    background-color: rgb(14, 167, 238);
+    border: none;
+    color: white;
+    padding: 4px 32px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+input[type=text]:focus {
+    border: 3px solid gray;
+}
+
+#mail {
+    width: 250px;
+}
+
+#comment {
+    width: 500px;
+    height: 90px;
+}
+
+.button_s {
+    padding-left: 73px;
+    padding-top: 7px;
+
+}
+
+h1{
+    padding-bottom: 30px;
+}
+
+.example {
+    background-color: rgba(176, 175, 175, 0.799);
+    border-radius: 10px;
+    padding: 1%;
+}

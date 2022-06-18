@@ -5,8 +5,6 @@
   color: black;
 }
 
-
-
 div, body {
   margin: 0%;
   border: 0%;
@@ -59,6 +57,7 @@ div, body {
 li {
   list-style: none;
   padding: 20px 30px 20px 30px;
+  text-decoration: none;
 }
 
 
@@ -68,14 +67,23 @@ li {
   padding: 3px 10px 0px 10px;
 }
 
-.imagen-section > img {
-  width: 180px;
-  height: 180px;
+.perfil1{
+  width: 80%;
+  height: 80%;
   border-radius: 50%;
   margin: 15px;
   background-color: #bcbcbc;
-  border: white 20px solid;
-  align-content: center;
+  zoom:1;
+  margin-left: 22px;
+  margin-top: 20px;
+  }
+
+.perfil {
+  border-radius: 50%;
+  width: 210px;
+  height: 210px;
+  background-color: white;
+  margin-left: 20px;
 }
 
 .imagen-section {
@@ -94,7 +102,7 @@ li {
 /*   transition:white .5s; */
 }
 
-li:hover {
+ul > li:hover {
 /*   background-color:gold;*/
   background-color: #a794be;
   cursor: hand;
@@ -124,4 +132,12 @@ li:hover {
 .foot{
   background-color: #e2ddeb;
   text-align: center;
+}
+
+#s3{
+  margin-top: 90px;
+}
+
+.pie{
+  font-weight: bold;
 }

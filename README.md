@@ -1,12 +1,22 @@
-# ProyectosDAWM
+<!-- # ProyectosDAWM -->
 
-Dudas
+## Elaboración de estructura y diseño de una página web, empleando lenguaje de marcado HTML y CSS.
 
-Hola profesor Allan! :D 
-Espero que esté bien, tengo algunas dudas.
+### Capturas de Pantalla
 
-Cómo puedo hacer para que cuando hago click en el área cuadrado ```<li>``` de cada opción del menú me lleve al link referenciado y no tener necesidad de seleccionar exactamente el texto? 
+#### Pantalla de inicio
 
-Cómo puedo hacer responsive el menú (sandwich)? :'(
-He visto algunos videos pero no lo logro... a pesar de que el menú si es un flex...
+![alt text](./capturas/inicio.png)
 
+#### Tutoriales/Blog
+
+![alt text](./capturas/tutos.png)
+
+#### Primer Tuto
+
+![alt text](./capturas/page.png)
+![alt text](./capturas/page_form.png)
+
+#### Contacto
+
+![alt text](./capturas/contacto.png)
