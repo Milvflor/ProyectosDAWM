@@ -1,0 +1,94 @@
+.logoSG{
+    background-color: #eaf6f6;
+    opacity: 0.4;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body .year_start{
+    text-align: right;
+    font-size: medium;
+    color:#3e4a61;
+}
+
+.card-body .card-title{
+    padding-bottom: 10px;
+    color: #38598b;
+}
+
+.card-body .text{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 9px;
+    color: #393e46;
+}
+
+.card-body .text div{
+    display: block;
+    align-self: end;
+}
+
+.card-body .text p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.card-body .text .etiqueta{
+    font-weight: bold;
+}
+
+.card-body h4{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.card-body p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #393e46;
+    font-size: 15px;
+}
+
+.textFilter {
+    color: #38598b;
+}
+
+#B1, #B2, #B3, #B4{
+    display: flex;
+    width: fit-content;
+}
+
+.textFilter img,p{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.scoreT{
+    margin-top: 27%;
+}
+
+#g2{
+    display: flex;
+    justify-content: center;    
+}
+
+
+.graph2{
+    display: block;
+    width: 70%;
+}
