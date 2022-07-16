@@ -1,4 +1,7 @@
-# Dashboard de Studios Ghibli: ./Proyecto2
+# Dashboard de Studios Ghibli: 
+
+File : ./Proyecto2 <br>
+index.html : Proyecto2/bootstrap-5-half-carousel-cover-template-main/half-carousel-cover.html
 
 ## Breve resumen de Studios Ghibli
 
