@@ -1,0 +1,1 @@
+browserify bootstrap-5-half-carousel-cover-template-main/js/script.js -o bundle.js 
