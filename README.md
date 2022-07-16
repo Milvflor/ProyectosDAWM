@@ -1,4 +1,4 @@
-# Dashboard de Studios Ghibli
+# Dashboard de Studios Ghibli: ./Proyecto2
 
 ## Breve resumen de Studios Ghibli
 
